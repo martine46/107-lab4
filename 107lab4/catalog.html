@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Stlyes-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="catalog.css">
+    
+    <title>Catalog</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">Product Inventory Upload</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>z
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="catalog.html" >Catalog <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="admin.html" >Admin <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                </li>
+            
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input id="txtSearch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="btnSearch" class="btn btn-danger my-2 my-sm-0" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                    <div id="catalog" class="catalog-container">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts  -->
+    <script src="jquery-3.4.1.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="catalog.js"></script>
+
+</body>
+</html>

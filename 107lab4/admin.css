@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: lightslategrey;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+.item-saved h6{
+    background-color: green;
+    border: 1px solid rgb(66, 170, 109);
+}
